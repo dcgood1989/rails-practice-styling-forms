@@ -31,10 +31,10 @@
 
   <div class="form-group row">
     <div class="col-md-2 col-md-offset-1 text-right">
-      <%= f.label :"Date of Birth" %>
+      <%= f.label :"date_of_birth" %>
     </div>
     <div class="col-md-2">
-      <%= f.date_field :first_name, class: "form-control" %>
+      <%= f.date_field :date_of_birth, class: "form-control" %>
     </div>
   </div>
 
@@ -43,7 +43,7 @@
         <%= f.label :"Bio" %>
       </div>
       <div class="col-md-5">
-          <%= f.text_field :bio, class: "form-control" %>
+          <%= f.text_area :bio, class: "form-control" %>
       </div>
     </div>
 
